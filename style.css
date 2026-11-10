@@ -1,0 +1,182 @@
+/* Warna yang dipakai hanya 2:
+   Putih    = #ffffff
+   Biru tua = #1e3a8a */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #1e3a8a;
+  line-height: 1.7;
+}
+
+/* ===== Navigasi ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  background-color: #ffffff;
+  border-bottom: 3px solid #1e3a8a;
+}
+
+.logo {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav a {
+  color: #1e3a8a;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+/* ===== Bagian utama (hero) ===== */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 70px 8%;
+}
+
+.hero-teks {
+  max-width: 500px;
+}
+
+.sapaan {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin: 10px 0 15px 0;
+  line-height: 1.2;
+}
+
+.tombol {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 28px;
+  background-color: #ffffff;
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+}
+
+.tombol:hover {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+.foto {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 6px solid #ffffff;
+  border-radius: 50%;
+}
+
+/* ===== Bagian umum ===== */
+section {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 34px;
+  margin-top: 0;
+}
+
+.hero {
+  text-align: left;
+}
+
+.terang {
+  background-color: #ffffff;
+  color: #1e3a8a;
+}
+
+.gelap {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+/* ===== Tentang ===== */
+.isi {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.data {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px 25px;
+  border: 3px solid #1e3a8a;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.data p {
+  margin: 8px 0;
+}
+
+/* ===== Keahlian ===== */
+.chip {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 26px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.chip:hover {
+  background-color: #ffffff;
+  color: #1e3a8a;
+}
+
+/* ===== Proyek ===== */
+.kartu {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  margin: 12px;
+  padding: 20px;
+  border: 3px solid #1e3a8a;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.kartu h3 {
+  margin-top: 0;
+}
+
+.kartu:hover {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #ffffff;
+  color: #1e3a8a;
+  text-align: center;
+  padding: 15px;
+  border-top: 3px solid #1e3a8a;
+  font-size: 14px;
+}
